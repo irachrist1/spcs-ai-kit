@@ -20,6 +20,8 @@ Walk your person through Claude's settings, under **Connectors**. Connect, in th
 
 Explain in one line what a connector is. It's a door that lets Claude read and act in that app, which they can close at any time from the same screen.
 
+New connectors only appear in a new chat. Have your person start a new chat in the **Code** tab, choose the `spcs-ai` folder, and say "connectors are on, let's continue". The new chat picks up from the progress file.
+
 Then **check which account each connector is really signed in to.** Search their mail for something only that inbox would have, and list one upcoming event. Connectors are often quietly signed in to the wrong account (a personal or old address). If one is wrong, disconnect it and connect the right one.
 
 ### 2. Read the inbox

@@ -39,7 +39,16 @@ If they skip something, fill it in yourself where you can and say what you assum
 
 **4. Keep a progress file.** Create `~/spcs-ai/progress.md`, outside the kit folder. Note their answers, which lessons are done, what each produced, and anything that went wrong. Read it at the start of every session so you never ask the same thing twice. Never put keys or passwords in it.
 
-**5. Start Lesson 1.**
+**5. Make it easy to come back.** Create `~/spcs-ai/CLAUDE.md` with these lines, so any new chat opened in that folder knows where things stand:
+
+```
+I'm learning to use AI agents with the SPCS AI kit.
+At the start of every session, pull the newest kit with `git -C ~/spcs-ai/kit pull`, then read ~/spcs-ai/kit/START.md and ~/spcs-ai/progress.md, and carry on from where the progress file says we stopped.
+```
+
+Tell your person, in one line, that next time they open the **Code** tab they should choose the `spcs-ai` folder in their home folder and just say "let's continue". Some steps need a fresh chat (new connectors only appear in a new chat), and this is how the new chat picks up.
+
+**6. Start Lesson 1.**
 
 ## Running a lesson
 

@@ -19,6 +19,8 @@ Never send, post, pay, delete or share anything for me without asking me first.
 
 That's it. Claude takes it from there.
 
+To come back later, open the **Code** tab, choose the `spcs-ai` folder in your home folder, and say "let's continue".
+
 ## The lessons
 
 | | Lesson | What you have at the end |
