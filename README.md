@@ -6,14 +6,12 @@ You don't need to be technical. Claude does the technical parts and explains wha
 
 ## How to start
 
-Open the Claude desktop app and paste this. A paid plan is needed.
+Open the Claude desktop app, click **Code** at the top (not Chat or Cowork), pick any folder and paste this. A paid plan is needed.
 
 ```
-I'm new to AI agents and my co-founder Tonny packaged his whole AI setup for me. Set it up and teach me, step by step, in plain words. Do everything technical yourself and just tell me what to click when you need me.
-1. If you can't run commands on this computer, tell me exactly how to open the Code tab in the Claude app and paste this there, then stop.
-2. Install what's missing: Homebrew, GitHub's command line tool, Obsidian and 1Password. If I don't have a GitHub account, walk me through making one, then sign me in.
-3. Clone the private repo irachrist1/spcs-ai-kit into ~/spcs-ai/kit. If it says the repo doesn't exist, write me a one-line WhatsApp to send Tonny with my GitHub username, then help me accept his invite and try again.
-4. Read START.md in the kit and follow it from there, one lesson at a time. Every lesson ends with something real on my own accounts.
+I'm new to AI agents. My co-founder Tonny packaged his AI setup for me at github.com/irachrist1/spcs-ai-kit.
+Read START.md there and follow it. It works on Mac or Windows.
+Do everything technical yourself, installs and accounts included, and teach me step by step in plain words.
 Never send, post, pay, delete or share anything for me without asking me first.
 ```
 
