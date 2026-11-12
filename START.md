@@ -20,15 +20,22 @@ They're sharp and busy, and they're not technical. They want to understand how t
 
 **1. Check where you are.** You need to run commands on this computer. If you can't (for example you're in a plain chat with no access to the computer), tell your person to open the Claude desktop app, go to the **Code** tab, choose a folder, and paste their prompt there. Then stop.
 
-**2. Get the kit.** Clone `irachrist1/spcs-ai-kit` into `~/spcs-ai/kit`. It's private, so:
+**2. Set up the tools.** Install whatever is missing, explaining each in one line as you go:
 
-- Check for GitHub's command line tool with `gh --version`. If it's missing, install it. On a Mac, install Homebrew first if needed (https://brew.sh), then `brew install gh`. On Windows, use `winget install --id GitHub.cli`.
-- Check `gh auth status`. If they're not signed in, run `gh auth login --web --git-protocol https`, show them the one-time code, and walk them through approving it in the browser. They need their own GitHub account, and the co-founder has to have invited it to the repo. If the clone says the repo doesn't exist, that invite is missing or not yet accepted. Have them check their email for the GitHub invite, accept it, and try again.
-- Then `gh repo clone irachrist1/spcs-ai-kit ~/spcs-ai/kit`. If it's already there, run `git -C ~/spcs-ai/kit pull` instead, so you always have the newest lessons.
+- GitHub's command line tool (`gh`). On a Mac, install Homebrew first if needed (https://brew.sh), then `brew install gh`. On Windows, `winget install --id GitHub.cli`.
+- Obsidian (https://obsidian.md), where their notes will live. `brew install --cask obsidian` on a Mac.
+- 1Password (https://1password.com), where shared SPCS keys arrive. `brew install --cask 1password` on a Mac.
+
+**3. Get the kit.** It's private, so they need a GitHub account the co-founder has invited.
+
+- If they don't have a GitHub account, open https://github.com/signup and walk them through it step by step.
+- Run `gh auth login --web --git-protocol https`, show them the one-time code, and walk them through approving it in the browser.
+- Try `gh repo clone irachrist1/spcs-ai-kit ~/spcs-ai/kit`. If it's already there, run `git -C ~/spcs-ai/kit pull` instead.
+- If the clone says the repo doesn't exist, the invite is missing. Write a one-line WhatsApp message they can send the co-founder with their GitHub username, asking for access. Once the co-founder replies, open https://github.com/notifications or their email, accept the invite with them, and clone again. While they wait, finish step 2 and do steps 4 to 6.
 
 Read every file in the kit before you go on.
 
-**3. Say hello and ask once.** In one short, friendly message, explain what's about to happen in two sentences, then ask:
+**4. Say hello and ask once.** In one short, friendly message, explain what's about to happen in two sentences, then ask:
 
 - What should I call you?
 - Which email address do you use for SPCS work, and is it Gmail or Outlook?
@@ -37,9 +44,9 @@ Read every file in the kit before you go on.
 
 If they skip something, fill it in yourself where you can and say what you assumed.
 
-**4. Keep a progress file.** Create `~/spcs-ai/progress.md`, outside the kit folder. Note their answers, which lessons are done, what each produced, and anything that went wrong. Read it at the start of every session so you never ask the same thing twice. Never put keys or passwords in it.
+**5. Keep a progress file.** Create `~/spcs-ai/progress.md`, outside the kit folder. Note their answers, which lessons are done, what each produced, and anything that went wrong. Read it at the start of every session so you never ask the same thing twice. Never put keys or passwords in it.
 
-**5. Make it easy to come back.** Create `~/spcs-ai/CLAUDE.md` with these lines, so any new chat opened in that folder knows where things stand:
+**6. Make it easy to come back.** Create `~/spcs-ai/CLAUDE.md` with these lines, so any new chat opened in that folder knows where things stand:
 
 ```
 I'm learning to use AI agents with the SPCS AI kit.
@@ -48,7 +55,7 @@ At the start of every session, pull the newest kit with `git -C ~/spcs-ai/kit pu
 
 Tell your person, in one line, that next time they open the **Code** tab they should choose the `spcs-ai` folder in their home folder and just say "let's continue". Some steps need a fresh chat (new connectors only appear in a new chat), and this is how the new chat picks up.
 
-**6. Start Lesson 1.**
+**7. Start Lesson 1.**
 
 ## Running a lesson
 
