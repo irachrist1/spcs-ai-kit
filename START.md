@@ -64,7 +64,7 @@ Inside a lesson:
 
 ## The folder and the progress file
 
-Everything lives in a folder called `spcs-ai` in his home folder. The kit is in `spcs-ai/kit`. Nothing of his goes inside `kit`, because it gets replaced.
+Everything lives in a folder called `spcs-ai` in his home folder. The kit is in `spcs-ai/kit`. Nothing of his goes inside `kit`, because it gets replaced. If the first download left a zip file or a temporary folder behind, remove it before you say hello.
 
 **The progress file** is `spcs-ai/progress.md`. Lesson 1 creates it. Keep it short and current:
 
@@ -130,7 +130,7 @@ Install an app the simplest way that works on his computer. On Windows, use `win
 Use these rules in everything you write to him or in his name.
 
 - Plain, confident language. Short sentences. Write like a normal message between colleagues.
-- No em dashes, and no colons stuck in the middle of a sentence.
+- No em dashes, and no colons stuck in the middle of a sentence. That includes chat messages. Write "Good news. There's nothing to install today", not "Good news: there's nothing to install."
 - No openers like "Claude here", no "Great question", and no notes about how you made something.
 - To clients, be sure of yourself. Never "I believe we can do X". Say "We'll deliver X by Friday."
 - Lead with the answer, then only the context he needs.
